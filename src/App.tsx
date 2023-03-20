@@ -1,10 +1,13 @@
-import React from 'react'
+import { Button } from './components/Button';
 
-function App() {
-
+export default function App() {
   return (
-    <h1>hello</h1>
+    <>
+      <Button variant="primary" />
+      <Button variant="secondary" />
+      <Button variant="success" />
+      <Button variant="danger" />
+      <Button />
+    </>
   )
 }
-
-export default App
