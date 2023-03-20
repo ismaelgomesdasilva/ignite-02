@@ -6,9 +6,12 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "lint": "npx eslint src --ext .ts,.tsx"
   },
   "dependencies": {
+    "@rocketseat/eslint-config": "^1.2.0",
+    "eslint": "^8.36.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "styled-components": "^5.3.9"
